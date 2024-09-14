@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Interactive Resume by Tabinda</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add some basic styling for layout */
+        .resume-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .left-section, .right-section {
+            width: 45%;
+        }
+        .left-section img {
+            width: 100%; /* Adjust based on your design */
+            border-radius: 50%;
+        }
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            margin-top: 10px;
+            border-radius: 50%;
+            border: 5px solid #e63946;
+            margin-bottom: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Left Section -->
+        <div class="left-section">
+            <!-- Profile Picture -->
+            <img src="image.jfif" alt="Profile Picture" class="profile-picture">
+
+            <!-- Profile Section -->
+            <section id="profile">
+                <h3 style="color: rgb(6, 83, 52);">Profile</h3>
+                <p style="text-align: justify; hyphens: auto;">
+                    <i><b>My name is Tabinda. Here is my professional info about my career, experience, education, and skills.</b></i>
+                </p>
+            </section>
+
+            <!-- Career Objective Section -->
+            <section id="career-objective">
+                <h3 style="color: rgb(9, 85, 41);">Career Objective</h3>
+                <p style="text-align: justify; hyphens: auto;">
+                    <i><b>To secure an employment opportunity with a progressive organization where I can utilize my professional skills and knowledge to the maximum, adding value to the growth of the organization.</b></i>
+                </p>
+            </section>
+
+            <!-- Certification Section -->
+            <section id="certification">
+                <h3 style="color: rgb(9, 87, 56);">Certification</h3>
+                <p><b>CIT:</b><br><br>From Karachi University</p>
+                <p><b>Artificial Intelligence, Web 3.0, Metaverse:</b><br><br>From Governor House Karachi (ongoing)</p>
+            </section>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <h1>Static Interactive Resume by Tabinda</h1>
+            
+            <!-- Personal Information -->
+            <section id="personal-info">
+                <h3>Personal Information</h3>
+                <p><b>Name:</b> Tabinda</p>
+                <p><b>Phone:</b> 0312-34567890</p>
+                <p><b>Email:</b> <a href="mailto:tabinda@gmail.com">tabinda@gmail.com</a></p>
+                <p><b>URL:</b> <a href="https://pk.linkedin.com/in/ta-bi-09328024a" target="_blank">www.linkedin.com/in/ta-bi-09328024a</a></p>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education">
+                <h3>Education</h3>
+                <p><b>Bachelor's:</b> Commerce from Karachi University</p>
+                <p><b>Intermediate:</b> I.COM from Sir Syed Govt Girls College</p>
+                <p><b>Matric:</b> SSC from St. Francis School Karachi</p>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Statistical Analysis</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>Communication</li>
+                </ul>
+            </section>
+
+            <!-- Work Experience Section -->
+            <section id="work-experience">
+                <h3>Work Experience</h3>
+                <p><b>Company:</b> ABC Company Ltd.</p>
+                <p><b>Role:</b> Frontend Developer</p>
+            </section>
+
+            <!-- Button to Toggle Skill Section -->
+            <button id="toggle-skills"><b>Hide/Show Skills</b></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
